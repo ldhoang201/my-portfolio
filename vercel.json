@@ -1,9 +1,7 @@
 {
   "framework": "vite",
-  "installCommand": "cd portfolio-app && npm ci",
-  "buildCommand": "cd portfolio-app && npm run build",
-  "outputDirectory": "portfolio-app/dist",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
